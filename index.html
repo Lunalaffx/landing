@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en" data-loading class="[--color-bg:theme(colors.black)] text-white antialiased">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>LUNA LAFF TALLERES</title>
+		<meta name="description" content="Highly-experimental CSS-only carousel variations that use the new scroll-driven animation properties" />
+		<meta name="keywords" content="CSS animations, scroll-driven animations, CSS on-scroll animations" />
+		<meta name="author" content="Maxwell Barvian for Codrops" />
+		<link rel="stylesheet" href="css/demo1.css" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<script>
+			document.documentElement.setAttribute('data-js', '')
+			window.addEventListener('load', () => document.documentElement.removeAttribute('data-loading'))
+		</script>
+		
+	</head>
+	<body>
+		<div class="@container min-h-screen relative isolate flex flex-col gap-8 supports-sda:pointer-events-none overflow-clip" style="timeline-scope: --scroller, --slide-1, --slide-2, --slide-3, --slide-4; --slides: 4;">
+			<img class="absolute hidden supports-sda:block -z-20 inset-0 h-full w-full object-cover animate-grow" style="animation-timeline: --slide-1" src="img/1/1.png" />
+			<img class="absolute hidden supports-sda:block -z-20 inset-0 h-full w-full object-cover animate-grow" style="animation-timeline: --slide-2" src="img/1/2.png" />
+			<img class="absolute hidden supports-sda:block -z-20 inset-0 h-full w-full object-cover animate-grow" style="animation-timeline: --slide-3" src="img/1/3.jpg" />
+			<img class="absolute hidden supports-sda:block -z-20 inset-0 h-full w-full object-cover animate-grow" style="animation-timeline: --slide-4" src="img/1/4.png" />
+			<div class="absolute hidden supports-sda:block -z-10 inset-0 h-full w-full overflow-x-auto snap-mandatory scroll-smooth snap-x scrollbar-hidden pointer-events-auto" style="scroll-timeline: --scroller x;">
+				<div class="grid grid-flow-col auto-cols-[70cqw] pr-[30cqw] h-full w-fit">
+					<div role="none" id="slide-1" class="snap-start" style="view-timeline: --slide-1 x;"></div>
+					<div role="none" id="slide-2" class="snap-start" style="view-timeline: --slide-2 x;"></div>
+					<div role="none" id="slide-3" class="snap-start" style="view-timeline: --slide-3 x;"></div>
+					<div role="none" id="slide-4" class="snap-start" style="view-timeline: --slide-4 x;"></div>
+				</div>
+			</div>
+			<header class="frame relative z-50 mx-7 flex max-lg:flex-col justify-between py-6 border-b gap-2 border-white/60 pointer-events-auto">
+				<div class="whitespace-nowrap">
+					<h1 class="font-bold inline align-middle">Luna Laff: Talleres Lowbudget</h1>
+					
+				</div>
+			</header>
+
+
+			<div class="flex-1 px-7 relative supports-sda:flex flex-col gap-[inherit]">
+				<!-- Slides -->
+				<div class=" w-[50rem] max-h-[450px] ">
+					<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-1; animation-range-start: 30cqw; background-color: rgba(0, 0, 0, 0.5);border-radius: 12px;  padding: 5px; display: inline-block;">
+						Worlding es la construcción, configuración y conceptualización de un mundo o de una realidad habitable en materialidad virtual a través de animaciones, videojuegos o AR/VR. 
+
+						<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-1; animation-range-start: 30cqw; background-color: rgba(0, 0, 0, 0.5);border-radius: 12px;  padding: 5px; display: inline-block;">
+						Se trabajará desde la construcción del espacio hasta la constitución de un mundo que presente verosimilitud y coherencia dentro de su propia virtualidad. Esto les entregará conocimiento y estrategias de desarrollo conceptual para su constitución como habilidades para modelar y componer una escena en 3D.</p>
+						<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-1; animation-range-start: 30cqw; background-color: rgba(0, 0, 0, 0.5);border-radius: 12px;  padding: 5px; display: inline-block;">
+
+						El curso de Worlding: composición de mundos, aborda las bases de modelado 3D, composición en el espacio y conceptualización de un mundo construido en el programa Blender. Worlding busca responder a las necesidades profesionales de artistas, diseñadores, comunicadores audiovisuales y áreas afines de adquirir conocimientos, habilidades, herramientas y metodologías para representar sus ideas de mundos o espacios en 3D.</p>
+
+
+
+
+						<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-1; animation-range-start: 30cqw; background-color: rgba(0, 0, 0, 0.5);border-radius: 12px;  padding: 5px; display: inline-block;">						Fecha de inicio: Martes 16 de Abril, 19 hrs a 21:30 hrs.
+							Fecha de cierre: Martes 21 de Mayo</p>
+							<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-1; animation-range-start: 30cqw; background-color: rgba(0, 0, 0, 0.5);border-radius: 12px;  padding: 5px; display: inline-block;">
+							cupos: 8 </p>
+							<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-1; animation-range-start: 30cqw; background-color: rgba(0, 0, 0, 0.5);border-radius: 12px;  padding: 5px; display: inline-block;">
+							clases: Una vez a la semana, por 6 semanas, cada clase de 2 horas.</p>
+							<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-1; animation-range-start: 30cqw; background-color: rgba(0, 0, 0, 0.5);border-radius: 12px;  padding: 5px; display: inline-block;">
+							valor: 55.000 en pago único y 10.000 pago clase a clase. </p>
+							<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-1; animation-range-start: 30cqw; background-color: rgba(0, 0, 0, 0.5);border-radius: 12px;  padding: 5px; display: inline-block;">
+							modalidad online y última sesión presencial.</p>
+
+						
+
+
+
+
+					
+					<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-2; animation-range-start: 30cqw; background-color: rgba(5, 74, 145, 0.5); padding: 20px; border-radius: 12px; position: relative; top: -400px;">
+						Un grupo de estudio autoral es una instancia de diálogo entre varios artistas y creativos que discuten y presentan su desarrollo práctico y/o teórico al grupo, con el objetivo de poder recibir y entregar feedback de lo que se pueda observar. 
+
+						Este curso tiene como objetivo entregar estrategias de desarrollo e investigación para la creación de obra o proyectos, mientras que clase a clase, se estipula un espacio de conversación y diálogo frente a las temáticas de interés, descubrimientos, referencias y el avance de cada integrante. 
+						
+					</p><p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-2; animation-range-start: 30cqw; background-color: rgba(5, 74, 145, 0.5); padding: 5px; border-radius: 12px; position: relative; top: -400px;">
+						Fecha de inicio: Lunes 29 de Abril // Jueves 2 de Mayo
+						Fecha de cierre: Lunes 3 de Junio // Jueves 6 de Junio<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-2; animation-range-start: 30cqw; background-color: rgba(5, 74, 145, 0.5); padding: 5px; border-radius: 12px; position: relative; top: -400px;">
+						
+						Horarios disponibles: Lunes 10AM o Jueves 6PM </p><p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-2; animation-range-start: 30cqw; background-color: rgba(5, 74, 145, 0.5); padding: 5px; border-radius: 12px; position: relative; top: -400px;">
+
+						secciones: 2 (según horario a convenir)</p><p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-2; animation-range-start: 30cqw; background-color: rgba(5, 74, 145, 0.5); padding: 20px; border-radius: 12px; position: relative; top: -400px;">
+						
+						cupos: 6<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-2; animation-range-start: 30cqw; background-color: rgba(5, 74, 145, 0.5); padding: 5px; border-radius: 12px; position: relative; top: -400px;">
+
+						clases: Una vez a la semana, por 6 semanas, cada clase de 2 a 3 horas.</p><p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-2; animation-range-start: 30cqw; background-color: rgba(5, 74, 145, 0.5); padding: 5px; border-radius: 12px; position: relative; top: -400px;">
+						
+						valor: 55.000 en pago único y 10.000 pago clase a clase. </p>
+						modalidad  presencial.
+						</p>
+					<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-3; animation-range-start: 30cqw; padding: 20px; border-radius: 12px; background-color: rgba(247, 236, 225, 0.5); position: relative; top: -600px;">
+						Clase introductoria al programa Agisoft Metashape por medio del ejercicio de hacer una fotogrametría de un objeto seleccionado. Proximamente...
+					</p>
+					<p class="animate-text translate-y-[50%] skew-y-[1.5deg]" style="animation-timeline: --slide-4; animation-range-start: 30cqw; padding: 20px; border-radius: 12px; background-color: rgba(230, 107, 129, 0.5);position: relative; top: -650px;">
+						Clase pedagógica sobre procesos de trabajo fluidos entre diferentes softwares. Proximamente...
+					</p>
+				</div>
+				<!-- Indicator -->
+				<div class="w-60 my-auto">
+					<nav class="flex font-medium text-sm gap-5">
+						<a href="#slide-1" class="animate-page !text-white pointer-events-auto" style="animation-timeline: --slide-1; animation-range-start: 30cqw;">01</a>
+						<a href="#slide-2" class="animate-page !text-white pointer-events-auto" style="animation-timeline: --slide-2; animation-range-start: 30cqw;">02</a>
+						<a href="#slide-3" class="animate-page !text-white pointer-events-auto" style="animation-timeline: --slide-3; animation-range-start: 30cqw;">03</a>
+						<a href="#slide-4" class="animate-page !text-white pointer-events-auto" style="animation-timeline: --slide-4; animation-range-start: 30cqw;">04</a>
+					</nav>
+					<div class="bg-white/60 mt-2">
+						<div class="bg-white h-0.5 animate-progress origin-left" style="animation-timeline: --scroller;"></div>
+					</div>
+				</div>
+				<!-- Captions -->
+				<div class="overlap items-end w-[31rem]">
+					<div>
+						<span class="block overflow-clip"><span class="block uppercase font-medium tracking-widest mb-4 animate-text-up" style="animation-timeline: --slide-1; animation-range-start: 30cqw;">Blender 3D</span></span>
+						<p class="pb-7 font-serif text-4xl animate-text translate-y-[205%] skew-y-6" style="animation-timeline: --slide-1; animation-range-start: 30cqw; background-color: lightcoral;">WORLDING: <em>Composición de mundos</em></p>
+					</div>
+					<div>
+						<span class="block overflow-clip"><span class="block uppercase font-medium tracking-widest mb-4 animate-text-up" style="animation-timeline: --slide-2; animation-range-start: 30cqw;">Google meet</span></span>
+						<p class="pb-7 font-serif text-4xl animate-text translate-y-[205%] skew-y-6" style="animation-timeline: --slide-2; animation-range-start: 30cqw; background-color: lightskyblue;">Grupo de estudio autoral: <em>Estrategias de desarrollo de obra
+						</em></p>
+					</div>
+					<div>
+						<span class="block overflow-clip"><span class="block uppercase font-medium tracking-widest mb-4 animate-text-up" style="animation-timeline: --slide-3; animation-range-start: 30cqw;">Agisoft metashape</span></span>
+						<p class="pb-7 font-serif text-4xl animate-text translate-y-[205%] skew-y-6" style="animation-timeline: --slide-3; animation-range-start: 30cqw; background-color: lightsteelblue;">Introducción <em>a Fotogrametría</em></p>
+					</div>
+					<div>
+						<span class="block overflow-clip"><span class="block uppercase font-medium tracking-widest mb-4 animate-text-up" style="animation-timeline: --slide-4; animation-range-start: 30cqw;">Múltiples softwares</span></span>
+						<p class="pb-7 font-serif text-4xl animate-text translate-y-[205%] skew-y-6" style="animation-timeline: --slide-4; animation-range-start: 30cqw;">MixMedia: <em>flujos de trabajo mixtos</em></p>
+					</div>
+				</div>
+				<a href="https://docs.google.com/document/d/19hL4_4KroE2jU3uruEZxLrS3d7hXhor4l9iIt3mfsy0/edit?usp=sharing" class="max-lg:hidden absolute z-50 bottom-7 right-7 pointer-events-auto" style="color: lightcoral;">MÁS INFORMACIÓN</a>
+			</div>
+			<div class="supports-sda:hidden px-7 pb-7">
+				Your browser does not support scroll-driven animations. See <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_scroll-driven_animations">MDN</a> for browser compatibility tables.
+			</div>
+		</div>
+	</body>
+</html>
